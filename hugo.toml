@@ -3,19 +3,25 @@ languageCode = 'en-us'
 title = 'aionsec'
 theme = 'gokarna'
 
+[params]
+  description = "| Agentic Threat Hunting Solutions |"
+  footer = "aionsec"
+
+
+  avatarURL = "/images/aionsec.png"
+  avatarAltText = "aionsec"
+  avatarSize = "size-l"
+
+  # link hover colors (Dracula Pink)
+  accentColor = "#eb89f4"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-
 [menu]
-
-
 [[menu.main]]
-name = "about"
-url = "/about/"
-weight = 1
-
-
-
+  name = "about"
+  url = "/about/"
+  weight = 1
