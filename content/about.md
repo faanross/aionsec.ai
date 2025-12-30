@@ -15,7 +15,7 @@ We are the pioneers of **Human-Centric, Agent-Driven Threat Hunting.** We don't 
 
 By fusing the unmatched intuition of the human practitioner with the processing power and infinite scale of agentic intelligence, we are democratizing elite defense.
 
-The adversary never stops. With **aionsec**, the defender doesn't have to either.
+The adversary never stops. With **aionsec**, neither does the defender. 
 
 ### **The hunt begins in 2026... Stay tuned**
 
