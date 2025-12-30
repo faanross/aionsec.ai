@@ -1,11 +1,11 @@
 baseURL = 'https://www.aionsec.ai/'
 languageCode = 'en-us'
-title = 'AIONSEC'
+title = 'aionsec'
 theme = 'gokarna'
 
 [params]
   description = "| Never Stop Hunting |"
-  footer = "AIONSEC"
+  footer = "aionsec"
 
 
   avatarURL = "/images/aionsec.png"
