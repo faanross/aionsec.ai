@@ -19,4 +19,4 @@ No spam, no aggressive emails - just one notification when the course has a set 
 
 <br>
 
-![signup](../img/signup.png)
+<img src="../img/signup.png" alt="signup" style="max-width: 750px; width: 100%; height: auto;">
