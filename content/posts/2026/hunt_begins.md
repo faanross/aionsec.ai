@@ -60,7 +60,7 @@ Feed Claude Code a sequence of Sysmon process creation events, network connectio
 
 
 ### 2. Orchestration Frameworks Enable Agent Coordination
-Frameworks like Google's ADK let us build teams of specialized agents that coordinate, delegate, and reason together.
+Frameworks like Google ADK let us build teams of specialized agents that coordinate, delegate, and reason together.
 
 One agent monitors endpoint telemetry. Another analyzes network metadata. A third queries historical archives. A fourth validates findings against MITRE ATT&CK. They work as a nervous system — not isolated neurons.
 
@@ -188,6 +188,7 @@ GitHub repo. Contributor ecosystem. Shared detection libraries. Open development
 ---
 
 ![quote](/images/hunt_begins/004.png)
+
 ---
 
 ## Why This Matters: The Mission Beyond the Code
@@ -235,6 +236,7 @@ Continuous hunting becomes the default posture. Not a luxury. Not a quarterly ex
 ---
 
 ![quote](/images/hunt_begins/005.png)
+
 ---
 
 ## What Happens Next
