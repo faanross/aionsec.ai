@@ -12,17 +12,20 @@ type: "page"
 
 What if your defensive posture never slept?
 
-Not shifts, not on-call rotations—but truly continuous hunting. Agents reasoning over telemetry 24/7, building threat narratives in real-time, escalating high-fidelity leads while your team focuses on what humans do best: strategy, creativity, high-stakes decisions.
+Not shifts, not on-call rotations — but truly continuous hunting. 
+Agents reasoning over telemetry 24/7, building threat narratives in real-time, escalating high-fidelity leads while your team focuses on what humans do best: strategy, creativity, high-stakes decisions.
 
 This isn't theory. We're building it. And we're teaching you to build it with us.
 
+*[Join The Hunt](../../course.md)*
 ---
 
 ## The Problem: Threat Hunting as a Luxury Commodity
 
 Threat hunting today is expensive.
 
-Not because the tooling is expensive (Sysmon, Zeek, Wazuh, Velociraptor, Suricata are all free). Not because the data is expensive (storage is cheap). 
+Not because the tooling is expensive - most of the best tools like Sysmon and Zeek are free. 
+Not because the data is expensive (storage is cheap). 
 
 But because **human expertise doesn't scale**.
 
@@ -32,14 +35,14 @@ Elite threat hunting requires:
 - Deep telemetry analysis (not just alert triage)
 - The creativity to hunt for unknown threats (not just detect known patterns)
 
-For Fortune 500s with seven-figure+ security budgets, this is achievable. Build a team. Run shifts. Hunt continuously.
+For Fortune 500s with seven-figure+ security budgets, this is achievable. Hire the best. Build a team. Run shifts. Hunt continuously.
 
-For everyone else? Threat hunting is episodic at best. A luxury reserved for post-incident forensics or quarterly "hunting sprints."
+For everyone else? Threat hunting is episodic at best. A luxury reserved for post-incident forensics or quarterly ad hoc "hunting sprints."
 
 **Meanwhile, the adversary operates on unbounded time.**
 
 They persist across sessions, days, weeks. They adapt. They wait. 
-And our defenses—built around point-in-time detection and human-dependent analysis—are always one step behind.
+And our defenses — built around point-in-time detection and human-dependent analysis — are always one step behind.
 
 ---
 
@@ -50,7 +53,7 @@ Like many of us, I had a backlog of articles, research papers, and videos I'd be
 
 **What I discovered changed everything.**
 
-The convergence of three things made agentic threat hunting not just possible — but **inevitable**:
+The convergence of three things made it clear to me that agentic threat hunting is not just possible — but **inevitable**:
 
 ### 1. LLMs Can Reason Over Unstructured Data
 GPT-4 class models (and beyond) don't just pattern-match. They reason. They build narratives. 
@@ -71,7 +74,7 @@ Local LLMs (Llama, Mistral) handle routine tasks at near-zero marginal cost. Pre
 
 This isn't incremental improvement. It's a capability unlock. And the window is open — early movers will define the category.
 
-*Ready to build this? [Join the course waitlist](../../course.md)*
+*Ready to build this? [Join The Hunt](../../course.md)*
 
 ---
 
@@ -81,26 +84,29 @@ This isn't incremental improvement. It's a capability unlock. And the window is 
 
 ## What We're Building
 
-**Numinon** is AionSec's open-source, sovereign agentic threat hunting platform.
+AionSec is an open-source, sovereign agentic threat hunting platform.
 
-The name comes from Kant's concept of the *noumenon*—that which is knowable through intuition rather than empirical observation alone. It represents the fusion we're building: human intuition guiding autonomous intelligence.
 
 ### The Core Philosophy
 
-Numinon is built on three pillars:
+AionSec's system is built on three pillars:
 
 **1. Human-Centric, Agent-Driven**
-We reject the false choice between "human expertise" and "AI automation." The future is symbiosis. Hunters don't become obsolete—they become orchestrators. One practitioner managing a team of autonomous agents achieves coverage previously requiring dedicated teams.
+We reject the false choice between "human expertise" and "AI automation." 
+**The future is symbiosis**. 
+Hunters don't become obsolete — they become orchestrators. One practitioner managing a team of autonomous agents achieves coverage previously requiring dedicated teams.
 
 **2. Continuous, Not Point-in-Time**
-Traditional detection operates in snapshots. Alerts fire. Tickets close. The adversary persists. Numinon maintains stateful awareness—agents hunt continuously, building narratives in real-time, not reconstructing timelines post-incident.
+Traditional detection operates in snapshots. Alerts fire. Tickets close. The adversary persists. AionSec maintains stateful awareness — agents hunt continuously, building narratives in real-time, not reconstructing timelines post-incident.
 
 **3. Sovereign and Open-Source**
-Your telemetry. Your logic. Your deployment. No vendor SaaS. No black boxes. Modular, adaptable, community-driven. The platform adapts to your environment like quicksilver—no "one size fits all" configurations.
+Your telemetry. Your logic. Your deployment. No vendor SaaS. No black boxes. Modular, adaptable, community-driven. The platform adapts to your environment like quicksilver — no "one size fits all" configurations. It's a principle, an idea that evolves with the technology. 
+
+Do dogma, no ulterior motives. The plan is to make elite level security available to everyone - [Join The Hunt](../../course.md)
 
 ### The Technical Stack (Level 1 MVP)
 
-Numinon's architecture is designed for practitioners to build themselves:
+The architecture is designed for practitioners to build themselves:
 
 **Telemetry Sources:**
 - **Sysmon** (endpoint): Process execution, network connections, credential access, injection detection
@@ -132,7 +138,7 @@ This is the **minimal viable stack**. Levels 2 and 3 (launching 2027-2028) add W
 But 80% of modern threats? Detectable with Sysmon + Zeek + agentic reasoning.
 
 
-*Want to build Numinon yourself? The course launches Q2 2026.*
+*Want to build it yourself? The course launches Q2 2026.*
 **[Join the course waitlist](../../course.md)**
 
 ---
@@ -145,13 +151,13 @@ But 80% of modern threats? Detectable with Sysmon + Zeek + agentic reasoning.
 
 We're not just shipping a platform. We're teaching practitioners to build it themselves.
 
-### Q2 2026: "Building Numinon" Course (Level 1 of 3)
+### Q2 2026: "Building AionSec" Course (Level 1 of 3)
 
 **What You'll Build:**
 A fully functional agentic threat hunting system from scratch. Deploy the Receptor. Integrate Sysmon and Zeek. Orchestrate multi-model agents. Implement clinical reasoning over telemetry. Build autonomous action loops with safety rails.
 
 **Who It's For:**
-Threat hunters, detection engineers, security practitioners who want to own this capability—not rent it from a vendor.
+Threat hunters, detection engineers, security practitioners who want to own this capability — not rent it from a vendor.
 
 **What Makes It Different:**
 - Hands-on deployment (not theory)
@@ -160,8 +166,6 @@ Threat hunters, detection engineers, security practitioners who want to own this
 - Cost-optimized design (local + premium LLM strategy)
 - Real-world hunting scenarios (credential dumping, C2 detection, lateral movement, exfiltration)
 
-**Who's Teaching It:**
-I've been teaching security practitioners for the past year as an instructor at AntiSyphon—delivering workshops and multi-day courses on threat hunting and detection engineering. This course is the culmination of what I've been building and teaching in parallel.
 
 **Timeline:**
 
@@ -169,12 +173,12 @@ I've been teaching security practitioners for the past year as an instructor at 
 
 The platform is **100% free and open-source**.
 
-Why? Because democratization isn't marketing—it's our mission. Elite defensive capabilities shouldn't be locked behind vendor paywalls.
+Why? Because democratization isn't marketing — it's our mission. Elite defensive capabilities shouldn't be locked behind vendor paywalls.
 
 **Modular Architecture:**
 Start with the MVP (Sysmon + Zeek). Add telemetry sources as needed (WEL, PowerShell, Suricata, Wazuh, Velociraptor). Choose your LLM models (local, premium, or hybrid). Deploy on-prem, cloud, or hybrid.
 
-Like quicksilver, Numinon adapts to your environment.
+Like quicksilver, AionSec adapts to your environment.
 
 **Community-Driven:**
 GitHub repo. Contributor ecosystem. Shared detection libraries. Open development roadmap. The community improves the platform together.
@@ -199,17 +203,19 @@ This isn't just about building better tooling. It's about fundamentally shifting
 
 The "AI will replace security analysts" narrative is a false dichotomy.
 
-Hunters aren't being replaced—they're being promoted. From manual log analysis to orchestrating autonomous agent teams. From tactician to strategist. From hunting one hypothesis at a time to managing distributed hunts across your entire environment.
+Hunters aren't being replaced — they're being promoted. From manual log analysis to orchestrating autonomous agent teams. From tactician to strategist. From hunting one hypothesis at a time to managing distributed hunts across your entire environment.
 
-The craft remains. Intuition, creativity, adversarial thinking—these are irreplaceable. But now they're amplified by agents that operate at machine speed and never tire.
+The craft remains. Intuition, creativity, adversarial thinking — these are irreplaceable. But now they're amplified by agents that operate at machine speed and never tire.
+
 
 ### Democratization of Elite Defense
 
-If you don't have a dedicated threat hunting team with 24/7 coverage, you're not defenseless—you're just operating with one hand tied behind your back.
+If you don't have a dedicated threat hunting team with 24/7 coverage, you're not defenseless — you're just operating with one hand tied behind your back.
 
-Numinon changes the economics. One practitioner + agentic system = continuous hunting that rivals (and in some cases exceeds) what dedicated teams achieve manually.
+AionSec changes the economics. One practitioner + agentic system = continuous hunting that rivals what dedicated teams achieve manually.
 
 This levels the playing field. Small security teams. Solo practitioners. Startups. Regional organizations. Everyone gets access to elite capabilities.
+
 
 ### Sovereignty and Transparency
 
@@ -223,15 +229,7 @@ Sovereign hunting means:
 
 This isn't anti-cloud. It's pro-sovereignty.
 
-### The Eternal Hunt
 
-The adversary operates on unbounded time—Aion, not Chronos. They persist. They adapt. They wait.
-
-Our defenses have operated on Chronos: business hours, shift rotations, episodic hunting sprints.
-
-**With Numinon, we match their persistence with our own.**
-
-Continuous hunting becomes the default posture. Not a luxury. Not a quarterly exercise. The baseline.
 
 ---
 
@@ -241,26 +239,26 @@ Continuous hunting becomes the default posture. Not a luxury. Not a quarterly ex
 
 ## What Happens Next
 
-I'm building Numinon in public. Sharing what I learn as I build it. Teaching the system as it takes shape.
+I'm building AionSec in public. Sharing what I learn as I build it. Teaching the system as it takes shape.
 
 
 **The course launches Q2 2026.**[Join the course waitlist](../../course.md)
 
 **The platform launches Q3-Q4 2026.** Open-source, on GitHub, free for everyone.
 
-This is collaborative, not transactional. The community builds this together.
+
 
 ---
 
 ## The Invitation: Build This With Us
 
-I'm not building Numinon in a vacuum and unveiling it as a finished product. I'm building it in public. Sharing what I learn. Teaching the system as I build it.
+I'm not building AionSec in a vacuum and unveiling it as a finished product. I'm building it in public. Sharing what I learn. Teaching the system as I build it.
 
-This is collaborative, not transactional.
+
 
 **If you're a threat hunter,** this is your opportunity to evolve from analyst to orchestrator.
 
-**If you're a detection engineer,** this is the next frontier—teaching agents when and how to apply your rules.
+**If you're a detection engineer,** this is the next frontier — teaching agents when and how to apply your rules.
 
 **If you're a security leader,** this is how you achieve continuous hunting without hiring a dedicated team.
 
@@ -270,20 +268,11 @@ The technology exists. The architecture is proven. The economics finally work.
 
 **The only question is: who builds it first?**
 
----
-
-## The Hunt Begins in 2026
-
-The adversary operates on unbounded time.
-
-With AionSec, so do you.
-
-**[Join the course waitlist](../../course.md)**
-
-
-**Connect on LinkedIn:** [Faan Rossouw](https://linkedin.com/in/faan_rossouw) | [AionSec](https://linkedin.com/company/aionsec)
-
 **The hunt is eternal. Let's make it ours.**
+
+**Connect on LinkedIn: [AionSec](https://linkedin.com/company/aionsec) **
+
+
 
 
 
