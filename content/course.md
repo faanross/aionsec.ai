@@ -3,9 +3,9 @@ draft = false
 title = 'AionSec Course: Launching Q2 2026'
 +++
 
-## Join the Waitlist: Building Numinon
+## Join the Waitlist
 
-The first course on agentic threat hunting. Learn to build your own open-source, sovereign hunting platform from scratch. Q2 2026.
+Learn to build your own open-source agentic threat hunting platform from scratch. **Launches Q2 2026**.
 
 <br>
 
@@ -13,6 +13,10 @@ The first course on agentic threat hunting. Learn to build your own open-source,
 
 <br>
 
-Waitlist members get notified when enrollment opens + **20% discount**. 
+Waitlist members get notified when enrollment opens + **20% discount**.
 
 No spam, no aggressive emails - just one notification when the course has a set launch date.
+
+<br>
+
+![signup](../img/signup.png)
