@@ -1,6 +1,7 @@
 # Hugo build output and cache
 /public/
 /resources/
+/build/
 
 # Operating System files
 .DS_Store

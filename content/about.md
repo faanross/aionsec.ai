@@ -19,7 +19,7 @@ The adversary never stops. With **AionSec**, the hunt is eternal.
 
 ### **The hunt begins in 2026... Stay tuned**
 
-![about](../img/hybrid.png)
+![about](/images/hybrid.png)
 
 ___
 
