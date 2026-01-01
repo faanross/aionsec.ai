@@ -17,7 +17,7 @@ Agents reasoning over telemetry 24/7, building threat narratives in real-time, e
 
 This isn't theory. We're building it. And we're teaching you to build it with us.
 
-*[Join The Hunt](../../course.md)*
+*[Join The Hunt](https://www.aionsec.ai/course.md)*
 
 ---
 
