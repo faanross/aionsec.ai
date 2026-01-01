@@ -271,7 +271,7 @@ The technology exists. The architecture is proven. The economics finally work.
 
 **The hunt is eternal. Let's make it ours.**
 
-**Connect on LinkedIn: [AionSec](https://linkedin.com/company/aionsec) **
+**Connect on LinkedIn: [AionSec](https://linkedin.com/company/aionsec)**
 
 
 
