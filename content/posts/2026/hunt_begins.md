@@ -131,8 +131,9 @@ This is the **minimal viable stack**. Levels 2 and 3 (launching 2027-2028) add W
 
 But 80% of modern threats? Detectable with Sysmon + Zeek + agentic reasoning.
 
-**[CTA 2: INLINE LEARN MORE - Place here]**
-*Want to build Numinon yourself? The course launches Q2 2026. Join the waitlist: [MAILERLITE_LINK]*
+
+*Want to build Numinon yourself? The course launches Q2 2026.*
+**[Join the course waitlist](../../course.md)**
 
 ---
 
@@ -163,7 +164,6 @@ Threat hunters, detection engineers, security practitioners who want to own this
 I've been teaching security practitioners for the past year as an instructor at AntiSyphon—delivering workshops and multi-day courses on threat hunting and detection engineering. This course is the culmination of what I've been building and teaching in parallel.
 
 **Timeline:**
-Course launches Q2 2026. Join the waitlist: [MAILERLITE_LINK]
 
 ### Q3-Q4 2026: Open-Source Platform Launch
 
@@ -241,7 +241,8 @@ Continuous hunting becomes the default posture. Not a luxury. Not a quarterly ex
 
 I'm building Numinon in public. Sharing what I learn as I build it. Teaching the system as it takes shape.
 
-**The course launches Q2 2026.** Join the waitlist: [MAILERLITE_LINK]
+
+**The course launches Q2 2026.**[Join the course waitlist](../../course.md)
 
 **The platform launches Q3-Q4 2026.** Open-source, on GitHub, free for everyone.
 
@@ -273,13 +274,12 @@ The technology exists. The architecture is proven. The economics finally work.
 
 The adversary operates on unbounded time.
 
-With Numinon, so do you.
+With AionSec, so do you.
 
-**Join the course waitlist:** [MAILERLITE_LINK]
+**[Join the course waitlist](../../course.md)**
 
-**Follow the build:** aionsec.ai
 
-**Connect on LinkedIn:** [Faan Rossouw](https://linkedin.com/in/faanrossouw) | [AionSec](https://linkedin.com/company/aionsec)
+**Connect on LinkedIn:** [Faan Rossouw](https://linkedin.com/in/faan_rossouw) | [AionSec](https://linkedin.com/company/aionsec)
 
 **The hunt is eternal. Let's make it ours.**
 
