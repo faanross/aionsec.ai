@@ -16,7 +16,7 @@ Not shifts, not on-call rotations—but truly continuous hunting. Agents reasoni
 
 This isn't theory. We're building it. And we're teaching you to build it with us.
 
-<br>
+---
 
 ## The Problem: Threat Hunting as a Luxury Commodity
 
@@ -41,8 +41,7 @@ For everyone else? Threat hunting is episodic at best. A luxury reserved for pos
 They persist across sessions, days, weeks. They adapt. They wait. 
 And our defenses—built around point-in-time detection and human-dependent analysis—are always one step behind.
 
-<br>
-<br>
+---
 
 ## The Inflection Point: Why Now Is Different
 
@@ -76,12 +75,11 @@ This isn't incremental improvement. It's a capability unlock. And the window is 
 
 ---
 
-**[VISUAL 2: QUOTE GRAPHIC - Place here]**
-*"The adversary operates on unbounded time. With Numinon, so do you." (archaic-cybernetic styling, gold text on dark background)*
+![quote](/images/hunt_begins/002.png)
 
 ---
 
-## What We're Building: Introducing Numinon
+## What We're Building
 
 **Numinon** is AionSec's open-source, sovereign agentic threat hunting platform.
 
@@ -138,8 +136,7 @@ But 80% of modern threats? Detectable with Sysmon + Zeek + agentic reasoning.
 
 ---
 
-**[VISUAL 3: ARCHITECTURE DIAGRAM - Place here]**
-*High-level Numinon architecture flow: Telemetry Sources (Sysmon/Zeek) → The Receptor (10-min stateful memory) → Agent Orchestration (multi-model LLMs) → DuckDB (historical archive via MCP) → Autonomous Actions. Archaic-cybernetic style with golden circuit paths.*
+![quote](/images/hunt_begins/003.png)
 
 ---
 
@@ -190,9 +187,7 @@ GitHub repo. Contributor ecosystem. Shared detection libraries. Open development
 
 ---
 
-**[VISUAL 4: TIMELINE INFOGRAPHIC - Place here]**
-*Horizontal timeline showing: Q2 2026 (Course Launch - Level 1) → Q3-Q4 2026 (Platform Launch - Open Source) → 2027 (Level 2 Course) → 2028 (Level 3 Course + Certification). Golden milestones on dark background with circuit connections.*
-
+![quote](/images/hunt_begins/004.png)
 ---
 
 ## Why This Matters: The Mission Beyond the Code
@@ -239,9 +234,7 @@ Continuous hunting becomes the default posture. Not a luxury. Not a quarterly ex
 
 ---
 
-**[VISUAL 5: COMPARISON CHART - Place here]**
-*Side-by-side comparison table: "Traditional Hunting" (Episodic, Human-dependent, Limited coverage, Business hours, Manual correlation) vs. "Agentic Hunting with Numinon" (Continuous, Human-orchestrated, Scalable coverage, 24/7 autonomous, Clinical reasoning). Archaic-cybernetic styling.*
-
+![quote](/images/hunt_begins/005.png)
 ---
 
 ## What Happens Next
