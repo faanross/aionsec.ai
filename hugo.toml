@@ -23,11 +23,16 @@ theme = 'gokarna'
 [menu]
 
 [[menu.main]]
+  name = "course"
+  url = "/course/"
+  weight = 1
+
+[[menu.main]]
   name = "posts"
   url = "/posts/"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "about"
   url = "/about/"
-  weight = 1
+  weight = 3
