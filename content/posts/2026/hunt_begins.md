@@ -4,7 +4,7 @@ title: "The Hunt Begins in 2026: Building Numinon and the Future of Threat Hunti
 type: "page"
 ---
 
-![begins](/images/hunt_begins/001_post_001.png)
+![begins](/images/hunt_begins/001.png)
 
 <br>
 
@@ -49,7 +49,7 @@ And our defenses—built around point-in-time detection and human-dependent anal
 In late 2025, I took some time off. 
 Like many of us, I had a backlog of articles, research papers, and videos I'd been meaning to consume but never found the time for.
 
-What I discovered changed everything.
+**What I discovered changed everything.**
 
 The convergence of three things made agentic threat hunting not just possible — but **inevitable**:
 
@@ -72,8 +72,7 @@ Local LLMs (Llama, Mistral) handle routine tasks at near-zero marginal cost. Pre
 
 This isn't incremental improvement. It's a capability unlock. And the window is open — early movers will define the category.
 
-**[CTA 1: INLINE WAITLIST - Place here]**
-*Ready to build this? Join the course waitlist: [MAILERLITE_LINK]*
+*Ready to build this? [Join the course waitlist](../../course.md)*
 
 ---
 
