@@ -1,6 +1,6 @@
 ---
 showTableOfContents: true
-title: "The Hunt Begins in 2026: Building Numinon and the Future of Threat Hunting"
+title: "The Hunt Begins in 2026: Building AionSec and the Future of Threat Hunting"
 type: "page"
 ---
 
