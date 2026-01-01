@@ -21,6 +21,12 @@ theme = 'gokarna'
       unsafe = true
 
 [menu]
+
+[[menu.main]]
+  name = "posts"
+  url = "/posts/"
+  weight = 1
+
 [[menu.main]]
   name = "about"
   url = "/about/"
