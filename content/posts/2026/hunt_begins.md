@@ -75,7 +75,7 @@ Local LLMs (Llama, Mistral) handle routine tasks at near-zero marginal cost. Pre
 
 This isn't incremental improvement. It's a capability unlock. And the window is open — early movers will define the category.
 
-*Ready to build this? [Join The Hunt](../../course.md)*
+*[Join The Hunt](https://www.aionsec.ai/course/)*
 
 ---
 
@@ -140,7 +140,7 @@ But 80% of modern threats? Detectable with Sysmon + Zeek + agentic reasoning.
 
 
 *Want to build it yourself? The course launches Q2 2026.*
-**[Join the course waitlist](../../course.md)**
+*[Join The Hunt](https://www.aionsec.ai/course/)*
 
 ---
 
@@ -243,7 +243,7 @@ This isn't anti-cloud. It's pro-sovereignty.
 I'm building AionSec in public. Sharing what I learn as I build it. Teaching the system as it takes shape.
 
 
-**The course launches Q2 2026.**[Join the course waitlist](../../course.md)
+**The course launches Q2 2026.[Join The Hunt](https://www.aionsec.ai/course/)**
 
 **The platform launches Q3-Q4 2026.** Open-source, on GitHub, free for everyone.
 
