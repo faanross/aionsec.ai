@@ -4,6 +4,8 @@ title: "The Hunt Begins in 2026: Building Numinon and the Future of Threat Hunti
 type: "page"
 ---
 
+![begins](../img/hunt_begins/001_post_001.png)
+
 ## TEST
 
 
