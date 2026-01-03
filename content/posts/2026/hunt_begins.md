@@ -71,8 +71,6 @@ One agent monitors endpoint telemetry. Another analyzes network metadata. A thir
 ### 3. The Economics Finally Work
 Local LLMs (Llama, Mistral) handle routine tasks at near-zero marginal cost. Premium models (Gemini, Claude) are reserved for complex reasoning. Self-hosted infrastructure is affordable.
 
-**For the first time, continuous agentic hunting costs less than hiring one additional analyst.**
-
 This isn't incremental improvement. It's a capability unlock. And the window is open — early movers will define the category.
 
 *[Join The Hunt](https://www.aionsec.ai/course/)*
@@ -93,17 +91,22 @@ AionSec is an open-source, sovereign agentic threat hunting platform.
 AionSec's system is built on three pillars:
 
 **1. Human-Centric, Agent-Driven**
+
 We reject the false choice between "human expertise" and "AI automation." 
 **The future is symbiosis**. 
 Hunters don't become obsolete — they become orchestrators. One practitioner managing a team of autonomous agents achieves coverage previously requiring dedicated teams.
 
 **2. Continuous, Not Point-in-Time**
+
 Traditional detection operates in snapshots. Alerts fire. Tickets close. The adversary persists. AionSec maintains stateful awareness — agents hunt continuously, building narratives in real-time, not reconstructing timelines post-incident.
 
 **3. Sovereign and Open-Source**
+
 Your telemetry. Your logic. Your deployment. No vendor SaaS. No black boxes. Modular, adaptable, community-driven. The platform adapts to your environment like quicksilver — no "one size fits all" configurations. It's a principle, an idea that evolves with the technology. 
 
-Do dogma, no ulterior motives. The plan is to make elite level security available to everyone - [Join The Hunt](../../course.md)
+Do dogma, no ulterior motives. The plan is to make elite level security available to everyone.
+
+[Join The Hunt](../../course.md)
 
 ### The Technical Stack (Level 1 MVP)
 
@@ -115,7 +118,7 @@ The architecture is designed for practitioners to build themselves:
 
 **The Receptor (Stateful Memory Core):**
 - Go-based analysis engine maintaining a 10-minute sliding window of telemetry
-- Not a database—a living memory agents query for context
+- Not a database — a living memory agents query for context
 - Events older than 10 minutes archive to DuckDB (cold storage, queryable via MCP)
 
 **Agent Orchestration:**
@@ -243,7 +246,7 @@ This isn't anti-cloud. It's pro-sovereignty.
 I'm building AionSec in public. Sharing what I learn as I build it. Teaching the system as it takes shape.
 
 
-**The course launches Q2 2026.[Join The Hunt](https://www.aionsec.ai/course/)**
+**The course launches Q2 2026.** [Join The Hunt](https://www.aionsec.ai/course/)
 
 **The platform launches Q3-Q4 2026.** Open-source, on GitHub, free for everyone.
 
@@ -265,7 +268,7 @@ I'm not building AionSec in a vacuum and unveiling it as a finished product. I'm
 
 **If you're a solo practitioner,** this is how you punch above your weight class.
 
-The technology exists. The architecture is proven. The economics finally work.
+The technology exists. 
 
 **The only question is: who builds it first?**
 
@@ -275,11 +278,8 @@ The technology exists. The architecture is proven. The economics finally work.
 
 
 
-
-
 ---
 
 [|TOC|]({{< ref "../_index.md" >}})
 
-[//]: # ([|NEXT|]&#40;{{< ref "./02_history.md" >}}&#41;)
 
