@@ -171,24 +171,28 @@
 
 		.nav-links {
 			position: fixed;
-			top: 44px;
+			top: 0;
 			left: 0;
 			right: 0;
 			bottom: 0;
 			flex-direction: column;
-			background: rgba(0, 0, 0, 0.95);
+			justify-content: center;
+			align-items: center;
+			background: rgba(0, 0, 0, 0.98);
 			padding: 32px 24px;
-			gap: 20px;
-			transform: translateX(100%);
-			transition: transform 0.3s ease;
+			gap: 24px;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 0.3s ease, visibility 0.3s ease;
 		}
 
 		.nav-links.open {
-			transform: translateX(0);
+			opacity: 1;
+			visibility: visible;
 		}
 
 		.nav-links a {
-			font-size: 14px;
+			font-size: 18px;
 		}
 	}
 </style>
