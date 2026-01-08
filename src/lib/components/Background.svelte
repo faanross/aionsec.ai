@@ -1,17 +1,8 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
-	let blurred = $state(false);
-
-	onMount(() => {
-		// Start blur transition after a short delay
-		setTimeout(() => {
-			blurred = true;
-		}, 800);
-	});
+	// No animation - always blurred
 </script>
 
-<div class="animated-bg" class:blurred></div>
+<div class="animated-bg blurred"></div>
 <div class="gradient-orb orb-1"></div>
 <div class="gradient-orb orb-2"></div>
 <div class="gradient-orb orb-3"></div>
