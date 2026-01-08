@@ -43,7 +43,7 @@ body {
 /* Typography */
 h1 {
     font-weight: 700;
-    font-size: clamp(28px, 3.5vw, 42px);
+    font-size: clamp(32px, 4vw, 52px);
     line-height: 1.2;
     background: linear-gradient(135deg, #bd93f9 0%, #d4b8fc 100%);
     -webkit-background-clip: text;
@@ -53,7 +53,7 @@ h1 {
 
 h2 {
     font-weight: 600;
-    font-size: clamp(20px, 2.5vw, 30px);
+    font-size: clamp(24px, 3vw, 36px);
     line-height: 1.25;
     background: linear-gradient(135deg, #bd93f9 0%, #d4b8fc 100%);
     -webkit-background-clip: text;
@@ -63,12 +63,12 @@ h2 {
 
 h3 {
     font-weight: 600;
-    font-size: clamp(14px, 1.5vw, 18px);
+    font-size: clamp(16px, 1.8vw, 20px);
     color: var(--aion-purple);
 }
 
 p {
-    font-size: clamp(13px, 1vw, 15px);
+    font-size: clamp(14px, 1.2vw, 17px);
     line-height: 1.65;
     color: rgba(255, 255, 255, 0.85);
 }
