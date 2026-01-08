@@ -80,7 +80,7 @@
 	}
 
 	.tagline {
-		font-size: clamp(10px, 1vw, 12px);
+		font-size: clamp(12px, 1.2vw, 14px);
 		font-weight: 500;
 		color: var(--aion-purple);
 		text-transform: uppercase;
@@ -93,7 +93,7 @@
 	}
 
 	.subtitle {
-		font-size: clamp(13px, 1.2vw, 15px);
+		font-size: clamp(16px, 1.5vw, 18px);
 		color: rgba(255, 255, 255, 0.8);
 		line-height: 1.7;
 		margin-bottom: 28px;

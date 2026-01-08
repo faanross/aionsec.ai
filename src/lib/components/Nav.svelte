@@ -87,8 +87,8 @@
 	}
 
 	.logo img {
-		width: 24px;
-		height: 24px;
+		width: 30px;
+		height: 30px;
 		border-radius: 4px;
 	}
 
@@ -107,7 +107,7 @@
 	}
 
 	.nav-links a {
-		font-size: 11px;
+		font-size: 14px;
 		font-weight: 500;
 		color: rgba(255, 255, 255, 0.7);
 		text-decoration: none;
