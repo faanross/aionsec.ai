@@ -70,9 +70,9 @@
 	}
 
 	.nav-container {
-		max-width: 1200px;
+		max-width: 1400px;
 		margin: 0 auto;
-		padding: 0 24px;
+		padding: 0 48px;
 		height: 44px;
 		display: flex;
 		align-items: center;
