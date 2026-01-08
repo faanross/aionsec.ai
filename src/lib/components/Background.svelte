@@ -1,25 +1,17 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	// Check if animation already played this session
-	const alreadyBlurred = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('bgBlurred') === 'true';
-	let blurred = $state(alreadyBlurred);
-	let skipTransition = $state(alreadyBlurred);
+	let blurred = $state(false);
 
 	onMount(() => {
-		if (alreadyBlurred) {
-			// Already blurred, no animation needed
-			return;
-		}
-		// First visit - play animation and store state
+		// Start blur transition after a short delay
 		setTimeout(() => {
 			blurred = true;
-			sessionStorage.setItem('bgBlurred', 'true');
 		}, 800);
 	});
 </script>
 
-<div class="animated-bg" class:blurred class:skip-transition={skipTransition}></div>
+<div class="animated-bg" class:blurred></div>
 <div class="gradient-orb orb-1"></div>
 <div class="gradient-orb orb-2"></div>
 <div class="gradient-orb orb-3"></div>
@@ -45,10 +37,6 @@
 
 	.animated-bg.blurred {
 		filter: blur(4px);
-	}
-
-	.animated-bg.skip-transition {
-		transition: none;
 	}
 
 	.gradient-orb {
