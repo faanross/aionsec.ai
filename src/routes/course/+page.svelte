@@ -156,6 +156,10 @@
 					<h3>When does it launch?</h3>
 					<p>Q2 2026. Waitlist members get notified first and receive 20% early bird pricing.</p>
 				</div>
+				<div class="glass-card faq-item" in:fly={{ y: 40, duration: 600, delay: 1800 }}>
+					<h3>Do I get lifetime access?</h3>
+					<p>Yes. One payment, permanent access — including all future updates to the course content.</p>
+				</div>
 			</div>
 		{/if}
 	</div>
