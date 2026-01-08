@@ -65,7 +65,7 @@
 	</div>
 </section>
 
-<section class="waitlist">
+<section class="waitlist" id="waitlist">
 	<div class="container">
 		<div class="glass-card waitlist-card" class:visible={mounted}>
 			<h2>Get Ahead of the Curve</h2>
