@@ -11,6 +11,11 @@
 		setTimeout(() => {
 			heroRevealed = true;
 		}, 1200);
+
+		// Re-initialize MailerLite form on SPA navigation
+		if (typeof window !== 'undefined' && (window as any).ml) {
+			(window as any).ml('load');
+		}
 	});
 </script>
 
