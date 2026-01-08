@@ -171,28 +171,29 @@
 
 		.nav-links {
 			position: fixed;
-			top: 0;
+			top: 44px;
 			left: 0;
 			right: 0;
 			bottom: 0;
+			height: calc(100vh - 44px);
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			background: rgba(0, 0, 0, 0.98);
+			background: rgba(0, 0, 0, 0.85);
+			backdrop-filter: blur(20px);
+			-webkit-backdrop-filter: blur(20px);
 			padding: 32px 24px;
-			gap: 24px;
-			opacity: 0;
-			visibility: hidden;
-			transition: opacity 0.3s ease, visibility 0.3s ease;
+			gap: 44px;
+			transform: translateX(100%);
+			transition: transform 0.3s ease;
 		}
 
 		.nav-links.open {
-			opacity: 1;
-			visibility: visible;
+			transform: translateX(0);
 		}
 
 		.nav-links a {
-			font-size: 18px;
+			font-size: 28px;
 		}
 	}
 </style>
