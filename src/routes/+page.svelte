@@ -14,14 +14,14 @@
 		{#if mounted}
 			<div class="hero-content" in:fade={{ duration: 800, delay: 200 }}>
 				<div class="tagline" in:fly={{ y: 20, duration: 600, delay: 300 }}>
-					Human-Centric, Agent-Driven
+					While You Sleep, Threats Don't
 				</div>
 				<h1 in:fly={{ y: 30, duration: 800, delay: 400 }}>
 					<span class="glow-text">Never Stop</span> Hunting
 				</h1>
 				<p class="subtitle" in:fly={{ y: 20, duration: 600, delay: 600 }}>
-					Sovereign, continuous threat hunting capability powered by agentic AI.
-					The adversary never stops. Neither should your defenses.
+					Build AI systems that hunt threats 24/7.
+					<br />Open-source. Sovereign. Unbounded.
 				</p>
 				<div class="cta-group" in:fly={{ y: 20, duration: 600, delay: 800 }}>
 					<a href="/course" class="btn-primary btn-cta">Join the Hunt</a>
@@ -39,15 +39,15 @@
 			<div class="pillar-grid">
 				<div class="glass-card pillar" in:fly={{ y: 40, duration: 600, delay: 1000 }}>
 					<h3>Human-Centric</h3>
-					<p>Hunters become orchestrators. One practitioner managing a team of autonomous agents achieves coverage previously requiring dedicated teams.</p>
+					<p>Your judgment guides the hunt. Agents handle the repetitive work at machine speed. The craft stays human — now it scales.</p>
 				</div>
 				<div class="glass-card pillar" in:fly={{ y: 40, duration: 600, delay: 1100 }}>
-					<h3>Continuous</h3>
-					<p>Agents hunt 24/7, building narratives in real-time — not reconstructing timelines post-incident. The eternal hunt.</p>
+					<h3>The Eternal Hunt</h3>
+					<p>Agents hunt continuously, building threat narratives in real-time. Not reconstructing timelines post-incident.</p>
 				</div>
 				<div class="glass-card pillar" in:fly={{ y: 40, duration: 600, delay: 1200 }}>
-					<h3>Sovereign</h3>
-					<p>Your data stays yours. Your logic is auditable. Deploy anywhere — on-prem, cloud, air-gapped. No vendor black boxes.</p>
+					<h3>Your Data, Your Control</h3>
+					<p>Your telemetry. Your logic. Deploy anywhere — on-prem, cloud, air-gapped. No vendor SaaS. No black boxes. Fully auditable.</p>
 				</div>
 			</div>
 		{/if}
@@ -58,9 +58,9 @@
 	<div class="container">
 		{#if mounted}
 			<div class="glass-card launch-card" in:fly={{ y: 40, duration: 600, delay: 1300 }}>
-				<span class="badge">Coming Soon</span>
-				<h2>The Hunt Begins Q2 2026</h2>
-				<p>Learn to build your own open-source agentic threat hunting platform from scratch. Course + open-source platform launching together.</p>
+				<span class="badge">Coming Q2 2026</span>
+				<h2>The Hunt is Evolving. Join Us.</h2>
+				<p>Learn to build your own agentic threat hunting system. Waitlist members get 20% off.</p>
 				<a href="/course" class="btn-primary btn-cta">Join the Waitlist</a>
 			</div>
 		{/if}
