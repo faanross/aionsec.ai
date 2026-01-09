@@ -36,8 +36,8 @@
 				</p>
 				<p>
 					That changed. Foundation models and open-source infrastructure created a
-					leapfrog moment. What cost $500K five years ago can now be built for
-					$10-50/month in API costs.
+					leapfrog moment. What required massive budgets five years ago can now
+					run on low monthly API costs.
 				</p>
 				<p>
 					<strong>AionSec exists to make that accessible.</strong> Not as a vendor selling

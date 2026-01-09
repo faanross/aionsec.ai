@@ -160,7 +160,7 @@
 						<li>Integrate endpoint + network telemetry (Sysmon, Zeek)</li>
 						<li>Orchestrate LLM agents that reason about evidence</li>
 						<li>Build autonomous action loops with safety rails</li>
-						<li>Run 24/7 for $10-50/month in API costs</li>
+						<li>Run 24/7 with low monthly API costs</li>
 					</ul>
 				</div>
 				<div class="glass-card" in:fly={{ y: 40, duration: 600, delay: 1000 }}>
@@ -178,7 +178,7 @@
 					<ul>
 						<li>Hands-on: you deploy a working system by module 12</li>
 						<li>Open-source: no vendor lock-in, ever</li>
-						<li>Affordable: $299 course + $10-50/month to run</li>
+						<li>Affordable: $299, lifetime access</li>
 						<li>Practical: built on Sysmon, Zeek, MITRE ATT&CK</li>
 						<li>Future-proof: agentic skills transfer everywhere</li>
 					</ul>
@@ -203,7 +203,7 @@
 				</div>
 				<div class="glass-card faq-item" in:fly={{ y: 40, duration: 600, delay: 1500 }}>
 					<h3>What does it cost to run the system?</h3>
-					<p>$10-50/month in API costs. The architecture uses local models for 95% of work, premium LLMs only when needed.</p>
+					<p>Low monthly API costs — typically under $100. The architecture offloads routine tasks to local models; premium LLMs kick in only when deeper reasoning is needed.</p>
 				</div>
 				<div class="glass-card faq-item" in:fly={{ y: 40, duration: 600, delay: 1600 }}>
 					<h3>Will this work with my existing tools?</h3>
