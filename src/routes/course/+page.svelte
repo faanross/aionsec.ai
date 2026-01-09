@@ -65,23 +65,23 @@
 	<div class="container">
 		{#if mounted}
 			<div class="problem-content" in:fly={{ y: 30, duration: 600, delay: 2000 }}>
-				<h2>The reality you know too well</h2>
+				<h2>The craft is changing</h2>
 				<div class="problem-grid">
 					<div class="problem-item">
-						<span class="problem-number">500+</span>
-						<p>alerts per day. You catch maybe 5%.</p>
+						<span class="problem-label">Same intuition</span>
+						<p>now amplified</p>
 					</div>
 					<div class="problem-item">
-						<span class="problem-number">$100K+</span>
-						<p>per year for SIEM. Still misses slow attacks.</p>
+						<span class="problem-label">Same creativity</span>
+						<p>now scalable</p>
 					</div>
 					<div class="problem-item">
-						<span class="problem-number">24/7</span>
-						<p>adversaries run autonomous C2. You work 9-5.</p>
+						<span class="problem-label">Same expertise</span>
+						<p>now multiplied</p>
 					</div>
 				</div>
 				<p class="problem-statement">
-					The industry is shifting to agentic systems. The question isn't <em>if</em> you'll need these skills—it's whether you'll build them now or scramble to catch up later.
+					The question is whether you evolve with it—or get left behind.
 				</p>
 			</div>
 		{/if}
@@ -319,19 +319,21 @@
 		text-align: center;
 	}
 
-	.problem-number {
+	.problem-label {
 		display: block;
-		font-size: clamp(36px, 5vw, 56px);
-		font-weight: 700;
+		font-size: clamp(18px, 2.5vw, 24px);
+		font-weight: 600;
 		color: var(--aion-purple);
-		line-height: 1;
+		line-height: 1.2;
 		margin-bottom: 8px;
 	}
 
 	.problem-item p {
-		font-size: 14px;
-		color: rgba(255, 255, 255, 0.7);
+		font-size: clamp(20px, 3vw, 28px);
+		font-weight: 700;
+		color: var(--aion-yellow);
 		margin: 0;
+		text-shadow: 0 0 20px rgba(245, 230, 99, 0.3);
 	}
 
 	.problem-statement {
