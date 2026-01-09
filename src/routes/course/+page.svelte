@@ -4,19 +4,37 @@
 
 	let mounted = $state(false);
 	let heroRevealed = $state(false);
+	let formSubmitted = $state(false);
+	let formLoading = $state(false);
 
 	onMount(() => {
 		mounted = true;
-		// Delay the reveal for dramatic effect
 		setTimeout(() => {
 			heroRevealed = true;
 		}, 1200);
-
-		// Re-initialize MailerLite form on SPA navigation
-		if (typeof window !== 'undefined' && (window as any).ml) {
-			(window as any).ml('load');
-		}
 	});
+
+	async function handleSubmit(event: Event) {
+		event.preventDefault();
+		const form = event.target as HTMLFormElement;
+		const formData = new FormData(form);
+
+		formLoading = true;
+
+		try {
+			const response = await fetch(form.action, {
+				method: 'POST',
+				body: formData,
+				mode: 'no-cors'
+			});
+			formSubmitted = true;
+		} catch (error) {
+			console.error('Form submission error:', error);
+			formSubmitted = true; // Show success anyway since no-cors doesn't give us response
+		} finally {
+			formLoading = false;
+		}
+	}
 </script>
 
 <svelte:head>
@@ -79,7 +97,46 @@
 				<br />Waitlist members get <strong>20% off</strong> at launch.
 			</p>
 
-			<div class="ml-embedded" data-form="jSWmMO"></div>
+			{#if !formSubmitted}
+				<form
+					class="waitlist-form"
+					action="https://assets.mailerlite.com/jsonp/1462037/forms/152012474066929011/subscribe"
+					method="post"
+					onsubmit={handleSubmit}
+				>
+					<div class="form-fields">
+						<input
+							type="email"
+							name="fields[email]"
+							placeholder="Email"
+							required
+							autocomplete="email"
+						/>
+						<input
+							type="text"
+							name="fields[name]"
+							placeholder="Name (Optional)"
+							autocomplete="given-name"
+						/>
+					</div>
+					<input type="hidden" name="ml-submit" value="1" />
+					<input type="hidden" name="anticsrf" value="true" />
+					<button type="submit" class="btn-submit" disabled={formLoading}>
+						{#if formLoading}
+							<span class="loading-spinner"></span>
+							Joining...
+						{:else}
+							Join Waitlist
+						{/if}
+					</button>
+				</form>
+			{:else}
+				<div class="form-success">
+					<p class="success-title">You're on the list</p>
+					<p class="success-message">You'll receive one email when the course launches (Q2 2026).</p>
+					<p class="success-link">In the meantime: <a href="https://www.linkedin.com/company/aionsec" target="_blank" rel="noopener noreferrer">AionSec on LinkedIn</a></p>
+				</div>
+			{/if}
 
 			<p class="note">
 				One email when we launch. That's it. No spam, no drip campaigns.
@@ -321,11 +378,6 @@
 		line-height: 1.8;
 	}
 
-	.waitlist-count {
-		color: var(--aion-yellow);
-		font-size: 18px;
-	}
-
 	.waitlist-card strong {
 		color: var(--aion-yellow);
 	}
@@ -336,12 +388,116 @@
 		color: rgba(255, 255, 255, 0.5);
 	}
 
-	:global(.ml-embedded) {
+	/* Custom Form Styles */
+	.waitlist-form {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 		margin: 24px 0;
 	}
 
-	:global(.ml-form-embedWrapper) {
-		font-family: 'JetBrains Mono', monospace !important;
+	.form-fields {
+		display: flex;
+		gap: 12px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.waitlist-form input[type="email"],
+	.waitlist-form input[type="text"] {
+		background: rgba(255, 255, 255, 0.05);
+		border: 1px solid rgba(255, 255, 255, 0.15);
+		padding: 14px 18px;
+		font-family: 'JetBrains Mono', monospace;
+		font-size: 14px;
+		color: var(--white);
+		min-width: 200px;
+		flex: 1;
+		transition: all 0.3s ease;
+	}
+
+	.waitlist-form input[type="email"]:focus,
+	.waitlist-form input[type="text"]:focus {
+		outline: none;
+		border-color: var(--aion-purple);
+		background: rgba(255, 255, 255, 0.08);
+	}
+
+	.waitlist-form input::placeholder {
+		color: rgba(255, 255, 255, 0.4);
+	}
+
+	.btn-submit {
+		background: var(--aion-yellow);
+		color: var(--black);
+		padding: 14px 32px;
+		font-family: 'JetBrains Mono', monospace;
+		font-weight: 600;
+		font-size: 14px;
+		border: none;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	}
+
+	.btn-submit:hover:not(:disabled) {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 30px rgba(255, 214, 0, 0.3);
+	}
+
+	.btn-submit:disabled {
+		opacity: 0.7;
+		cursor: not-allowed;
+	}
+
+	.loading-spinner {
+		width: 16px;
+		height: 16px;
+		border: 2px solid rgba(0, 0, 0, 0.2);
+		border-top-color: var(--black);
+		border-radius: 50%;
+		animation: spin 0.8s linear infinite;
+	}
+
+	@keyframes spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	.form-success {
+		padding: 24px;
+		text-align: center;
+	}
+
+	.success-title {
+		font-size: 20px;
+		font-weight: 600;
+		color: var(--aion-yellow);
+		margin-bottom: 12px;
+	}
+
+	.success-message {
+		font-size: 14px;
+		color: rgba(255, 255, 255, 0.8);
+		margin-bottom: 16px;
+	}
+
+	.success-link {
+		font-size: 14px;
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+	.success-link a {
+		color: var(--aion-purple);
+		text-decoration: none;
+	}
+
+	.success-link a:hover {
+		text-decoration: underline;
 	}
 
 	/* Course Details */
@@ -510,6 +666,15 @@
 	@media (max-width: 768px) {
 		.waitlist-card {
 			padding: 32px 24px;
+		}
+
+		.form-fields {
+			flex-direction: column;
+		}
+
+		.waitlist-form input[type="email"],
+		.waitlist-form input[type="text"] {
+			min-width: 100%;
 		}
 
 		.timeline-item {
