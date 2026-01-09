@@ -20,6 +20,38 @@
 	// All posts (including featured)
 	const posts = [
 		{
+			slug: 'what-is-agentic-threat-hunting',
+			title: 'What is Agentic Threat Hunting?',
+			excerpt: 'Defining the new category where agents hunt and humans orchestrate. Learn how agentic threat hunting inverts the traditional model — continuous, scalable, human-directed.',
+			date: 'January 2026',
+			readTime: '8 min read',
+			tags: ['Foundational', 'Agentic AI', 'Threat Hunting']
+		},
+		{
+			slug: 'why-open-source-matters',
+			title: 'Why Open-Source Matters for Security',
+			excerpt: 'Open-source isn\'t a feature. It\'s a philosophy. For security tooling, where trust is everything and adversaries are always adapting, it\'s the only approach that makes sense.',
+			date: 'January 2026',
+			readTime: '6 min read',
+			tags: ['Philosophy', 'Open-Source', 'Sovereignty']
+		},
+		{
+			slug: 'continuous-vs-episodic-hunting',
+			title: 'The Continuous vs. Episodic Hunting Gap',
+			excerpt: 'Episodic hunting leaves gaps. Adversaries live in those gaps. The solution isn\'t hunting harder — it\'s hunting continuously, statefully, proactively.',
+			date: 'January 2026',
+			readTime: '7 min read',
+			tags: ['Problem Definition', 'Threat Hunting', 'Foundational']
+		},
+		{
+			slug: 'the-leapfrog-moment',
+			title: 'The Leapfrog Moment',
+			excerpt: 'The economics of advanced security capabilities inverted. What cost $500K five years ago costs $50/month today. This is the leapfrog moment.',
+			date: 'January 2026',
+			readTime: '8 min read',
+			tags: ['Why Now', 'Economics', 'Foundational']
+		},
+		{
 			slug: 'hunt-begins',
 			title: 'The Hunt Begins in 2026: Building AionSec and the Future of Threat Hunting',
 			excerpt: 'What if your defensive posture never slept? Agents reasoning over telemetry 24/7, building threat narratives in real-time, escalating high-fidelity leads while your team focuses on strategy.',

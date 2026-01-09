@@ -21,10 +21,14 @@
 
 <footer>
 	<div class="container">
-		<p>AionSec</p>
-		<a href="https://www.linkedin.com/company/aionsec" target="_blank" rel="noopener noreferrer" class="footer-link">
-			LinkedIn
-		</a>
+		<p>&copy; 2026 AionSec</p>
+		<div class="footer-links">
+			<a href="/contact" class="footer-link">Contact</a>
+			<a href="/privacy" class="footer-link">Privacy</a>
+			<a href="https://www.linkedin.com/company/aionsec" target="_blank" rel="noopener noreferrer" class="footer-link">
+				LinkedIn
+			</a>
+		</div>
 	</div>
 </footer>
 
@@ -48,6 +52,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		gap: 24px;
+	}
+
+	.footer-links {
+		display: flex;
 		gap: 16px;
 	}
 
